@@ -6,13 +6,14 @@ namespace MiniCalculator
     {
         static void Main(string[] args)
         {
+            // Add numbers
             Console.WriteLine("Välja siffra nummer 1: ");
             int x = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Välja siffra nummer 2");
             int y = int.Parse(Console.ReadLine());
 
-
+            // Menu choices
             int choice = Menu();
 
             switch (choice)
